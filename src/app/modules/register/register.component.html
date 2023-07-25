@@ -1,6 +1,7 @@
 <div class="card card-outline card-primary">
     <div class="card-header text-center">
-        <a [routerLink]="['/']" class="h1"><b>Midas Solutions</b></a>
+        <!-- <a [routerLink]="['/']" class="h1"><b>Midas Solutions</b></a> -->
+        <img alt="img" class="img-responsive smaller" src="assets/img/logo.png" alt="centered image"/> 
     </div>
     <div class="card-body">
         <p class="login-box-msg">Registrar una nueva membresía</p>
@@ -55,7 +56,8 @@
                             value="agree"
                         />
                         <label for="agreeTerms">
-                            I agree to the <a href="#">terms</a>
+                            
+                            Estoy de acuerdo con la <a href="#"> términos</a>
                         </label>
                     </div>
                 </div>
@@ -74,7 +76,7 @@
             </div>
         </form>
 
-        <div class="social-auth-links text-center">
+        <!-- <div class="social-auth-links text-center">
             <pf-button
                 class="mb-2"
                 [block]="true"
@@ -95,10 +97,10 @@
                 <i class="fab fa-google mr-2"></i>
                 Sign up using Google+
             </pf-button>
-        </div>
+        </div> -->
 
         <a [routerLink]="['/login']" class="text-center">
-            I already have a membership</a
+            Ya tengo una membresia</a
         >
     </div>
 </div>
