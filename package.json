@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "update": "ng update --force @angular/cli @angular/core",
-    "postinstall": "ngcc"
+    "postinstall": "ngcc",
+    "prettier": "prettier --write \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.css\""
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
