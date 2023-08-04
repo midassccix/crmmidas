@@ -1,4 +1,5 @@
-<div class="card card-outline card-primary">
+
+<div class="card card-outline card-primary card-register">
     <div class="card-header text-center">
         <!-- <a [routerLink]="['/']" class="h1"><b>Midas Solutions</b></a> -->
         <img alt="img" class="img-responsive smaller" src="assets/img/logo.png" alt="centered image"/> 
@@ -8,48 +9,52 @@
 
         <form [formGroup]="registerForm" (ngSubmit)="registerByAuth()" class="needs-validation" novalidate>
         <div class="form-row">
-
-            <div class="input-group mb-2">
-                <input
-                    formControlName="nombre"
-                    type="nombre"
-                    class="form-control"
-                    placeholder="Nombre"
-                />
-                <div class="input-group-append">
-                    <div class="input-group-text">
-                        <span class="fas fa-user-edit"></span>
+            <div class="col-md-4">
+                <div class="input-group mb-2">
+                    <input
+                        formControlName="nombre"
+                        type="nombre"
+                        class="form-control"
+                        placeholder="Nombre"
+                    />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user-edit"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group mb-2">
+                    <input
+                        formControlName="apellidoP"
+                        type="apellidoP"
+                        class="form-control"
+                        placeholder="Apellido Paterno"
+                    />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user-edit"></span>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+            <div class="col-md-4">
+                <div class="input-group mb-2">
+                    <input
+                        formControlName="apellidoM"
+                        type="apellidoM"
+                        class="form-control"
+                        placeholder="Apellido Materno"
+                    />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user-edit"></span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="input-group mb-2">
-                <input
-                    formControlName="apellidoP"
-                    type="apellidoP"
-                    class="form-control"
-                    placeholder="Apellido Paterno"
-                />
-                <div class="input-group-append">
-                    <div class="input-group-text">
-                        <span class="fas fa-user-edit"></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="input-group mb-2">
-                <input
-                    formControlName="apellidoM"
-                    type="apellidoM"
-                    class="form-control"
-                    placeholder="Apellido Materno"
-                />
-                <div class="input-group-append">
-                    <div class="input-group-text">
-                        <span class="fas fa-user-edit"></span>
-                    </div>
-                </div>
-            </div>
             <div class="input-group mb-2">
                 <input
                     formControlName="fechaN"
@@ -209,3 +214,4 @@
         >
     </div>
 </div>
+

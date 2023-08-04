@@ -6,3 +6,18 @@
     margin:auto;
     display:block;
 }
+
+
+
+.container-register{
+  padding: 5px;
+}
+
+.card-register{
+  max-width: 800px;
+
+  .card-body{
+    max-height: 450px;
+    overflow: auto;
+  }
+}
