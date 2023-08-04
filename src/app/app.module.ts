@@ -21,6 +21,7 @@ import {NotificationsComponent} from '@modules/main/header/notifications/notific
 
 import {CommonModule, registerLocaleData} from '@angular/common';
 import localeEn from '@angular/common/locales/en';
+import localeEs from '@angular/common/locales/es';
 import {UserComponent} from '@modules/main/header/user/user.component';
 import {ForgotPasswordComponent} from '@modules/forgot-password/forgot-password.component';
 import {RecoverPasswordComponent} from '@modules/recover-password/recover-password.component';
@@ -35,7 +36,8 @@ import {uiReducer} from './store/ui/reducer';
 import {ProfabricComponentsModule} from '@profabric/angular-components';
 import {SidebarSearchComponent} from './components/sidebar-search/sidebar-search.component';
 
-registerLocaleData(localeEn, 'en-EN');
+//registerLocaleData(localeEn, 'en-EN');
+registerLocaleData(localeEs, 'es-PE');
 
 @NgModule({
     declarations: [
