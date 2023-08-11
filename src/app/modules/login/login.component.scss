@@ -1,6 +1,8 @@
 
 .smaller {
-    width: 70%;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
     
   }
 
@@ -11,4 +13,6 @@
 
 .card-login{
   max-width: 450px;
+  width: 100%;
 }
+

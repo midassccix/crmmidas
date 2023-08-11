@@ -1,23 +1,41 @@
 .smaller {
-    width: 70%;
-  }
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
 
-  .img-responsive smaller{
-    margin:auto;
-    display:block;
+.img-responsive smaller {
+  margin: auto;
+  display: block;
+}
+
+div.row {
+
+  margin: auto;
+
+}
+
+.icheck-primary {
+
+  margin: auto;
+}
+
+a {
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 
-
-.container-register{
+.container-register {
   padding: 5px;
 }
 
-.card-register{
-  max-width: 800px;
+.card-register {
+  max-width: 850px;
 
-  .card-body{
-    max-height: 450px;
+  .card-body {
+    max-height: 500px;
     overflow: auto;
   }
 }
